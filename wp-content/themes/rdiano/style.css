@@ -1,0 +1,229 @@
+/*
+Theme Name: Membrana
+Theme URI: http://membrana.gonzalozapata.cl
+Author: Gonzalo Zapata
+Author URI: http://www.gonzalozapata.cl/
+Description: Queremos contener en serio tu sitio.
+Version: 0.2
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Tags: 
+Text Domain: matriz 
+
+Para que puedas tener control total sobre el código que tienes aquí, el mismo se entrega con licencia GPL.
+*/
+
+body { /*margin-top:50px;*/ font-family:"proxima-nova", Open Sans, Helvetica Neue, Arial, Helvetica, sans-serif; }
+a, a:visited { color:#1d4c4f; }
+a:hover, a:active { color:#295f66; }
+
+.navbar { margin-bottom:0px !important; } /* Sacar si se pone el menú fijo */
+h1.titularhome { display: table; margin: 0 auto; padding:10px; position:relative; bottom:30px; background-color:#FFF; }
+h1.tituloenportada { display:inline-table; padding:10px; background-color:#FFF; position:relative; top:200px; }
+h1.tituloenportada a { color:#333; }
+
+.asdf { background-color:#FFF; color:#333; margin:0 auto; }
+
+img { max-width:100%; height:auto; }
+
+.verdeoscuro { background-color:#1d4c4f; }
+.page-header { margin:25px -15px 10px -15px; }
+@media all and ( max-width:767px ) { .page-header { margin:0!important; } .imagendefooter { margin:20px 0; } .nav-tabs-queesRD > li > a { padding:5px; } }
+.img-redes { max-height:30px; }
+
+.personas { background:url(img/portada_bn.jpg); background-size:cover; background-position:center; min-height:300px; margin-bottom:20px; }
+
+.footer { background-color:#1d4c4f; color:#DDD; }
+.imagendefooter { margin:5px 0; max-width:80%; }
+
+.motivador, .unete, .cuadrodeinfo h2 { color: #FAF0DF; }
+.cuadrodetextos { margin-top:25px; margin-bottom:25px; }
+.cuadrodeinfo { margin-top:25px; margin-bottom:25px; padding-bottom:30px; background-color:#1d4c4f; }
+
+.titulodewidget { font-weight:300; font-variant:small-caps; font-size:24px; border-bottom:solid 1px #333; margin-bottom:10px; }
+
+.navbar-inverse {
+  background-color: #1d4c4f;
+  border-color: #080808;
+  border-style:none;
+}
+.navbar-inverse .navbar-brand {
+  color: #bbb;
+}
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-text {
+  color: #FAF0DF;
+}
+.navbar-inverse .navbar-nav > li > a {
+  color: #FAF0DF;
+  text-transform:uppercase;
+  font-weight:bold;
+}
+.navbar-inverse .navbar-nav > li > a:hover,
+.navbar-inverse .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-nav > .active > a,
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+  color: #fff;
+  background-color: #295F66;
+}
+.navbar-inverse .navbar-nav > .disabled > a,
+.navbar-inverse .navbar-nav > .disabled > a:hover,
+.navbar-inverse .navbar-nav > .disabled > a:focus {
+  color: #444;
+  background-color: transparent;
+}
+.navbar-inverse .navbar-toggle {
+  border-color: #FAF0DF;
+}
+.navbar-inverse .navbar-toggle:hover,
+.navbar-inverse .navbar-toggle:focus {
+  background-color: #295F66;
+}
+.navbar-inverse .navbar-toggle .icon-bar {
+  background-color: #fff;
+}
+.navbar-inverse .navbar-collapse,
+.navbar-inverse .navbar-form {
+  border-color: #FAF0DF;
+}
+.navbar-inverse .navbar-nav > .open > a,
+.navbar-inverse .navbar-nav > .open > a:hover,
+.navbar-inverse .navbar-nav > .open > a:focus {
+  color: #fff;
+  background-color: #295F66;
+}
+@media (max-width: 767px) {
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .dropdown-header {
+    border-color: #FAF0DF;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu .divider {
+    background-color: #295F66;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a {
+    color: #FAF0DF;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #fff;
+    background-color: transparent;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #fff;
+    background-color: #295F66;
+  }
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .navbar-inverse .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #444;
+    background-color: transparent;
+  }
+}
+.navbar-inverse .navbar-link {
+  color: #FAF0DF;
+}
+.navbar-inverse .navbar-link:hover {
+  color: #fff;
+}
+.navbar-inverse .btn-link {
+  color: #FAF0DF;
+}
+.navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link:focus {
+  color: #fff;
+}
+.navbar-inverse .btn-link[disabled]:hover,
+fieldset[disabled] .navbar-inverse .btn-link:hover,
+.navbar-inverse .btn-link[disabled]:focus,
+fieldset[disabled] .navbar-inverse .btn-link:focus {
+  color: #444;
+}
+
+
+/*------------------------------------*\
+    $WORDPRESS CORE
+\*------------------------------------*/
+   
+.alignnone {
+	margin:5px 20px 20px 0;
+}
+.aligncenter,
+div.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+.aligncenter {
+	display:block;
+	margin:5px auto 5px auto;
+}
+a img.alignright {
+	float:right;
+	margin:5px 0 20px 20px;
+}
+a img.alignnone {
+	margin:5px 20px 20px 0;
+}
+a img.alignleft {
+	float:left;
+	margin:5px 20px 20px 0;
+}
+a img.aligncenter {
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+}
+.wp-caption {
+	background:#FFF;
+	border:1px solid #F0F0F0;
+	max-width:96%;
+	padding:5px 3px 10px;
+	text-align:center;
+}
+.wp-caption.alignnone {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignleft {
+	margin:5px 20px 20px 0;
+}
+.wp-caption.alignright {
+	margin:5px 0 20px 20px;
+}
+.wp-caption img {
+	border:0 none;
+	height:auto;
+	margin:0;
+	max-width:98.5%;
+	padding:0;
+	width:auto;
+}
+.wp-caption .wp-caption-text,
+.gallery-caption {
+	font-size:12px;
+	line-height:20px;
+	margin:0;
+	padding:10px 4px 5px;
+}
+.sticky {
+	
+}
+.bypostauthor {
+	
+}
+
